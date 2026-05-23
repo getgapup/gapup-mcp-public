@@ -1,6 +1,6 @@
 # Gapup MCP
 
-[![Smithery](https://img.shields.io/badge/Smithery-listed-c9a84c)](https://smithery.ai/server/mehdi-sakalypr/gapup-mcp)
+[![smithery badge](https://smithery.ai/badge/mehdi-sakalypr/gapup-mcp)](https://smithery.ai/servers/mehdi-sakalypr/gapup-mcp)
 [![Tools](https://img.shields.io/badge/tools-183-c9a84c)](https://mcp.gapup.io/health)
 [![x402](https://img.shields.io/badge/x402-USDC%2FEURC-c9a84c)](https://x402.org)
 [![Free tier](https://img.shields.io/badge/free%20tier-100%20calls%2Fmo-10b981)](https://hub.gapup.io/agents-api/onboard)
@@ -138,7 +138,7 @@ Full architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 ## Distribution
 
 Listed on:
-- **Smithery** — [smithery.ai/server/mehdi-sakalypr/gapup-mcp](https://smithery.ai/server/mehdi-sakalypr/gapup-mcp)
+- **Smithery** — [smithery.ai/servers/mehdi-sakalypr/gapup-mcp](https://smithery.ai/servers/mehdi-sakalypr/gapup-mcp)
 - More marketplaces being added (Glama, PulseMCP, mcp.so, mcp.directory, MCP Registry, Bazaar coming soon).
 
 ## License & usage
