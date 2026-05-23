@@ -1,0 +1,24 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/registry/v0.json",
+  "name": "io.github.getgapup/gapup-business-expertise",
+  "version": "0.2.0",
+  "description": "Gapup Business Expertise — 92 agent-payable C-suite expertises (CFO, CMO, CRO, CSO, CHRO, COO, Risk, Sustainability, Fundraising) delivering structured, audited deliverables: competitive intelligence, trend watching, deal scoring, risk scans, KYC, board packs, pricing strategy, fundraising dossiers and more. Agent-payable via HTTP 402 (USDC + EURC). Free tier 100 calls/mo.",
+  "homepage": "https://hub.gapup.io/agents-api",
+  "documentation": "https://hub.gapup.io/agents-api",
+  "repository": "https://github.com/getgapup/gapup-mcp",
+  "license": "MIT",
+  "author": { "name": "Gapup", "url": "https://hub.gapup.io" },
+  "categories": ["business-intelligence", "strategy", "fundraising", "sustainability"],
+  "tags": ["x402", "agent-payable", "c-suite", "competitive-intel", "fundraising", "esg", "risk", "sales", "finance"],
+  "transport": "stdio",
+  "install": {
+    "npm": "npx -p @gapup/mcp-knowledge gapup-business-expertise",
+    "binary": "gapup-business-expertise"
+  },
+  "config": {
+    "env": [
+      { "name": "GAPUP_API_KEY", "required": true, "description": "API key for Gapup expertise endpoints. Free tier (100 calls/mo, no credit card) at https://hub.gapup.io/agents-api/onboard" },
+      { "name": "GAPUP_API_BASE_URL", "required": false, "description": "Override base URL. Default: https://hub.gapup.io" }
+    ]
+  }
+}

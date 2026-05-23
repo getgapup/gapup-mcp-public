@@ -1,0 +1,41 @@
+{
+  "tool": "industry_classifier_naics_sic",
+  "tier": "T1",
+  "price_usd": 0.05,
+  "execRole": "cmo",
+  "_comment": "High-volume utility classifier. P50 latency 210ms (Cerebras-backed).",
+  "input": {
+    "company_description": "Maritime freight forwarder specialized in reefer containers, intra-EU corridors, 120 employees, €45M revenue",
+    "company_name": "Helios Cold Chain",
+    "primary_revenue_source": "Freight forwarding fees",
+    "focus_classifications": ["naics", "sic", "nace"]
+  },
+  "output_excerpt": {
+    "summary": "Helios Cold Chain operates in freight forwarding arrangement, transportation services sector (NAICS 488510 / SIC 4731 / NACE H52.29).",
+    "classifications": {
+      "naics_6digit": {
+        "code": "488510",
+        "label": "Freight Transportation Arrangement",
+        "confidence": "high",
+        "hierarchy_path": ["Transportation and Warehousing", "Support Activities for Transportation", "Other Support Activities for Transportation", "Freight Transportation Arrangement"]
+      },
+      "sic_4digit": {
+        "code": "4731",
+        "label": "Arrangement of Transportation of Freight and Cargo",
+        "confidence": "high",
+        "hierarchy_path": ["Transportation, Communications, Electric, Gas, And Sanitary Services", "Transportation Services", "Arrangement of Transportation of Freight and Cargo"]
+      },
+      "nace_eu": {
+        "code": "H52.29",
+        "label": "Other transportation support activities",
+        "confidence": "high",
+        "hierarchy_path": ["Transportation and storage", "Warehousing and support activities for transportation", "Support activities for transportation", "Other transportation support activities"]
+      }
+    },
+    "overall_confidence": "high",
+    "evidence": {
+      "based_on": "Description explicitly mentions freight forwarding fees as revenue source, reefer container specialization indicates support services for transportation rather than direct carrier operations",
+      "key_signals": ["freight forwarder", "reefer containers", "intra-EU corridors", "freight forwarding fees revenue"]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+Gapup MCP — Proprietary License (Public Documentation Repository)
+
+Copyright (c) 2026 Gapup. All rights reserved.
+
+This repository contains the public documentation, manifests, SDK examples, and
+integration helpers for the Gapup MCP (Model Context Protocol) server hosted at
+https://mcp.gapup.io.
+
+THE SERVER IMPLEMENTATION ITSELF IS NOT INCLUDED IN THIS REPOSITORY.
+The server source code, including tool prompts, persona definitions, output
+schemas, data fetchers, and orchestration logic, is proprietary and not
+distributed under this or any open-source license.
+
+USAGE TERMS:
+
+1. The hosted API at https://mcp.gapup.io is provided under the Gapup Terms of
+   Service available at https://hub.gapup.io/terms.
+
+2. Free tier: 100 calls per calendar month per API key, no credit card required.
+   Key issuance subject to Terms of Service.
+
+3. Paid usage: via x402 micro-payments (USDC / EURC) per the public pricing grid
+   (T0 $0.002 → T6 $1.50). See docs/PRICING.md for details.
+
+4. The contents of this repository (README, manifests, docs/, client/) MAY be:
+   - Read and referenced freely
+   - Used to configure third-party MCP clients
+   - Quoted with attribution in articles, talks, technical posts
+
+5. The contents of this repository MAY NOT be:
+   - Redistributed in modified form claiming to be the Gapup MCP
+   - Used to operate a competing service under the Gapup name or branding
+   - Used to reverse-engineer or clone the server implementation
+
+6. The manifests (smithery.yaml, server.json) reference the hosted Gapup
+   service. Forking these to point to a different endpoint while preserving the
+   Gapup branding is expressly forbidden.
+
+7. SDK examples in client/ are provided for integration illustration only.
+   They are not warranted or supported beyond their educational purpose.
+
+NO WARRANTIES:
+
+THE PUBLIC DOCUMENTATION AND SDK EXAMPLES ARE PROVIDED "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+THE HOSTED API CARRIES THE SERVICE LEVEL AGREEMENTS PUBLISHED IN THE TERMS OF
+SERVICE — REFER TO https://hub.gapup.io/terms FOR PRODUCTION GUARANTEES.
+
+LIMITATION OF LIABILITY:
+
+IN NO EVENT SHALL GAPUP BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR
+IN CONNECTION WITH THIS REPOSITORY OR THE USE OR OTHER DEALINGS WITH THE
+HOSTED API.
+
+CONTACT:
+
+Questions about licensing, commercial use, partnerships, or contributing
+integration examples: agents@gapup.io

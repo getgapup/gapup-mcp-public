@@ -1,0 +1,145 @@
+# Smithery — listing manifest for gapup-mcp (HTTP-hosted MCP server)
+# Doc : https://smithery.ai/docs
+# Live listing : https://smithery.ai/server/mehdi-sakalypr/gapup-mcp
+#
+# Publication :
+#   npm install -g @smithery/cli
+#   smithery login
+#   smithery mcp publish https://mcp.gapup.io/mcp -n mehdi-sakalypr/gapup-mcp
+#
+# (Voir LISTING-PUBLICATION.md pour le step-by-step + Bazaar.)
+
+name: mehdi-sakalypr/gapup-mcp
+displayName: "Gapup MCP — Agent-payable C-suite expertises"
+description: >
+  183 MCP tools (100+ C-suite expertises) — competitive intelligence, SEC filing decoder,
+  sanctions screener multi-jurisdiction (OFAC + EU + UK + UN + SECO + SEMA + DFAT + PEP +
+  adverse media), KYC, pentest scope estimator, attack surface monitor (passive recon +
+  CVE/EPSS/KEV), clinical evidence briefer (PubMed + ClinicalTrials.gov + OpenFDA, GRADE-graded),
+  real estate deal screener (EU-first moat — DVF Cerema + Géorisques), domain tech fingerprint
+  (dual-use CMO/CISO), industry classifier NAICS/SIC/NACE/GICS/ISIC/HS, research paper Q&A
+  (OpenAlex + Semantic Scholar + CORE, evidence-grounded with DOI citations), sentiment news
+  pulse (GDELT crisis detection), infra blueprint designer (AWS/GCP/Azure pricing-aware),
+  AI Act / GDPR / ESRS / Sharia compliance audits, FTG trade intelligence (market gap,
+  sourcing, Africa corridors), content data layer (gold-standard metadata
+  games/films/TV/music), live financial data, patent landscape async, weather & climate
+  risk, tax compliance multi-jurisdiction, crypto/on-chain wallet intelligence, talent
+  intelligence & salary benchmarking, T6 batch flagships, diaspora-ready multilingual
+  search (ZH/IN/MENA). Pricing x402 native (T0 $0.002 → T6 $1.50 batch flagship).
+  Cerebras-backed agent mode <30s p99. Dual-audience format (human/agent).
+  Free tier 100 calls/mo, no credit card.
+
+homepage: https://hub.gapup.io/agents-api
+repository: https://github.com/getgapup/gapup-mcp
+license: SEE LICENSE IN FILE
+
+# Transport HTTP hébergé (Streamable HTTP MCP).
+remote:
+  url: https://mcp.gapup.io/mcp
+  transport: streamable-http
+  auth: x402   # Pay-per-call via x402 USDC/EURC (Base + Optimism). Free tier 100 calls/mo.
+
+categories:
+  - business-intelligence
+  - competitive-intelligence
+  - compliance
+  - finance
+  - sales
+  - strategy
+  - trade
+  - data-enrichment
+  - research
+  - sustainability
+
+tags:
+  - x402
+  - usdc
+  - eurc
+  - agent-payable
+  - c-suite
+  - aici
+  - sec-edgar
+  - yahoo-finance
+  - wikipedia
+  - wayback
+  - ofac-sdn
+  - eu-ai-act
+  - gdpr
+  - csrd
+  - esrs
+  - kyc
+  - m-and-a
+  - trade-intelligence
+  - t6-flagship
+  - crypto-onchain
+  - clinical-trials
+  - patent-search
+  - pubmed
+  - openalex
+  - openfda
+  - real-estate
+  - dvf-cerema
+  - georisques
+  - attack-surface
+  - pentest
+  - sanctions-multi
+  - sentiment-news
+  - gdelt
+  - industry-classifier
+  - naics
+  - infra-design
+  - weather-climate
+  - tax-compliance
+  - sharia-compliance
+  - africa-trade
+  - talent-intelligence
+  - esg-audit
+  - rest-api
+  - edge-replicas
+  - cerebras
+  - dual-audience
+  - diaspora-multilingual
+  - zh-CN
+  - hi-IN
+  - ko-KR
+  - ja-JP
+  - multilingual
+
+# Highlights pour la fiche
+highlights:
+  - "183 tools live — verified via tools/list mcp.gapup.io"
+  - "100+ C-suite expertises board-ready (CFO/CMO/CRO/CHRO/COO/Risk/ESG/Fundraising)"
+  - "Dual-audience format — `audience` param routes human (Mistral gold-standard) vs agent (Cerebras <5s)"
+  - "Pricing x402 native — T0 $0.002 / T1 $0.05 / T2 $0.10 / T3 $0.15 / T4 $0.20 / T5 $0.30 / T6 $1.50 async-batch"
+  - "Free tier — 100 calls/month, no credit card. Key at https://hub.gapup.io/agents-api/onboard"
+  - "8-source sanctions engine — OFAC SDN + EU + UK HMT + UN + SECO CH + SEMA CA + DFAT AU + OpenSanctions + adverse media GDELT"
+  - "EU-first real estate moat — DVF Cerema + Géorisques (zéro concurrent x402 sur ce segment)"
+  - "Clinical evidence GRADE-graded — PubMed + ClinicalTrials.gov + OpenFDA cross-checked"
+  - "Research paper Q&A evidence-grounded — OpenAlex 45M open-access + Semantic Scholar + CORE, citations DOI vérifiables"
+  - "Patent landscape async — FTO clearance, prior art, competitor IP, multi-jurisdiction (USPTO/EPO/WIPO)"
+  - "Diaspora-ready multilingual — ZH/IN/MENA market intelligence, localised corporate registries"
+  - "Multi-source competitive deep dive — EDGAR + Yahoo + Wayback + Wikipedia + web, no hallucination"
+  - "EU AI Act / GDPR / ESRS / Sharia — captive regulatory compliance audits"
+  - "Async pattern (job_id + poll) for heavy flagships — no timeout risk"
+  - "Edge REST API — /api/v1/tools, /api/v1/call/:name, OpenAPI 3.0 spec"
+  - "Tool aliases — synonyms discovery (e.g. 'sanctions_check' → kyc_screener)"
+  - "Observability — Sentry wired (errors + perf + breadcrumbs + x402 caller context)"
+  - "Rate-limit per-caller (60/min standard, 10/min T4+) + trusted crawler bypass (Bazaar/Smithery/MCP-Registry bots)"
+  - "Circuit breaker on internal Gapup hub calls (last-good cache, graceful degradation)"
+  - "Edge replicas — Fly.io fra/sin/gru regions for global latency"
+
+# Configuration utilisateur (côté agent)
+configSchema:
+  type: object
+  required:
+    - gapup_api_key
+  properties:
+    gapup_api_key:
+      type: string
+      title: "Gapup API Key"
+      description: "Free 100 calls/mo. Key at hub.gapup.io/agents-api/onboard"
+    gapup_api_base_url:
+      type: string
+      title: "API Base URL (optional)"
+      description: "Override Gapup API endpoint. Default: https://hub.gapup.io"
+      default: "https://hub.gapup.io"
