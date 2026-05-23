@@ -30,7 +30,7 @@ description: >
   Free tier 100 calls/mo, no credit card.
 
 homepage: https://hub.gapup.io/agents-api
-repository: https://github.com/getgapup/gapup-mcp
+repository: https://github.com/getgapup/gapup-mcp-public
 license: SEE LICENSE IN FILE
 
 # Transport HTTP hébergé (Streamable HTTP MCP).
