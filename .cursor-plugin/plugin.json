@@ -1,0 +1,75 @@
+{
+  "$schema": "https://cursor.com/schema/plugin.json",
+  "name": "Gapup MCP",
+  "identifier": "io.github.getgapup.gapup-mcp",
+  "version": "0.2.2",
+  "description": "185 agent-payable C-suite expertise tools — competitive intel, SEC filings, sanctions/KYC, clinical evidence, real-estate underwriting, ESG, EU AI Act compliance. x402 USDC/EURC. 100 free calls/mo.",
+  "categories": [
+    "Business Intelligence",
+    "Finance",
+    "Compliance",
+    "Research"
+  ],
+  "homepage": "https://hub.gapup.io/agents-api",
+  "repository": "https://github.com/getgapup/gapup-mcp-public",
+  "documentation": "https://github.com/getgapup/gapup-mcp-public/blob/main/docs/EXAMPLES.md",
+  "license": "Proprietary",
+  "author": {
+    "name": "Gapup",
+    "email": "agents@gapup.io",
+    "url": "https://gapup.io"
+  },
+  "mcpServers": {
+    "gapup": {
+      "url": "https://mcp.gapup.io/mcp",
+      "type": "http",
+      "transport": "streamable-http",
+      "headers": {
+        "Authorization": "Bearer ${env:GAPUP_API_KEY}"
+      },
+      "envRequired": [
+        {
+          "name": "GAPUP_API_KEY",
+          "description": "Free API key (100 calls/mo, no card) — get at https://hub.gapup.io/agents-api/onboard",
+          "url": "https://hub.gapup.io/agents-api/onboard"
+        }
+      ]
+    }
+  },
+  "freeTier": {
+    "calls_per_month": 100,
+    "card_required": false,
+    "signup_url": "https://hub.gapup.io/agents-api/onboard"
+  },
+  "pricing": {
+    "model": "x402",
+    "currencies": ["USDC", "EURC"],
+    "chains": ["base", "optimism"],
+    "tiers": {
+      "T0_atomic": "$0.002",
+      "T1_fast": "$0.05",
+      "T2_standard": "$0.10",
+      "T3_research": "$0.15",
+      "T4_premium": "$0.20",
+      "T5_flagship": "$0.30"
+    }
+  },
+  "tags": [
+    "mcp",
+    "agent-payable",
+    "x402",
+    "usdc",
+    "eurc",
+    "c-suite",
+    "competitive-intelligence",
+    "sec-filings",
+    "sanctions",
+    "kyc",
+    "compliance",
+    "eu-ai-act",
+    "clinical-evidence",
+    "real-estate",
+    "esg",
+    "research"
+  ]
+}
