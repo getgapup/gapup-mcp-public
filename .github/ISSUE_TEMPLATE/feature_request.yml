@@ -1,0 +1,68 @@
+name: Feature request
+description: Propose a new tool, a new field, or a behavior change on `mcp.gapup.io`
+title: "[feat] <tool-or-area> — <one-line summary>"
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests are the only way new tools enter the hosted server —
+        the implementation is upstream and not in this repo. Be concrete:
+        the more specific your request, the faster it ships.
+  - type: input
+    id: scope
+    attributes:
+      label: Scope
+      description: New tool? New field on an existing tool? Behavior change?
+      placeholder: "New tool"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the agent workflow this enables. Concrete scenarios beat abstract requirements.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed contract
+      description: Tool name, input shape (JSON), output shape (JSON), latency target, audience modes.
+      render: yaml
+      placeholder: |
+        name: my-new-tool
+        input:
+          ticker: string
+          horizon_days: number
+        output:
+          signal: enum [bullish, bearish, neutral]
+          confidence: number
+        latency_target_p95_s: 5
+        audience: [human, agent]
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Existing tools you tried first, why they didn't fit.
+    validations:
+      required: false
+  - type: dropdown
+    id: priority
+    attributes:
+      label: How urgent for you?
+      options:
+        - "Blocking my production agent"
+        - "Would unlock a real use case in the next 30 days"
+        - "Nice to have"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: References, prior art, willingness to design-partner on it.
+    validations:
+      required: false

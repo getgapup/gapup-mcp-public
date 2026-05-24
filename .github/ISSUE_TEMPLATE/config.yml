@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: mailto:agents@gapup.io
+    about: "Do NOT open a public issue. See SECURITY.md and email agents@gapup.io with subject [SECURITY]."
+  - name: Billing, x402 settlement, refunds
+    url: mailto:agents@gapup.io
+    about: "Email agents@gapup.io — these are not tracked as public issues."
+  - name: Documentation question
+    url: https://github.com/getgapup/gapup-mcp-public/tree/main/docs
+    about: "Start with docs/API.md and docs/CLIENTS.md. Open a docs bug only if something is incorrect or missing."
+  - name: Hosted endpoint outage
+    url: https://status.gapup.io
+    about: "Check the status page first — incidents are tracked there, not as GitHub issues."
