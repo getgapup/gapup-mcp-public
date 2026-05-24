@@ -13,7 +13,7 @@
   "homepage": "https://hub.gapup.io/agents-api",
   "repository": "https://github.com/getgapup/gapup-mcp-public",
   "documentation": "https://github.com/getgapup/gapup-mcp-public/blob/main/docs/EXAMPLES.md",
-  "license": "Proprietary",
+  "license": "MIT",
   "author": {
     "name": "Gapup",
     "email": "agents@gapup.io",

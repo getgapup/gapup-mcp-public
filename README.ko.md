@@ -6,7 +6,7 @@
 [![Tools](https://img.shields.io/badge/tools-183-c9a84c)](https://mcp.gapup.io/health)
 [![x402](https://img.shields.io/badge/x402-USDC%2FEURC-c9a84c)](https://x402.org)
 [![Free tier](https://img.shields.io/badge/free%20tier-100%20calls%2Fmo-10b981)](https://hub.gapup.io/agents-api/onboard)
-[![License](https://img.shields.io/badge/license-Proprietary-grey)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **에이전트가 직접 결제하는 C-suite 전문 지식 — 183개 도구, x402 마이크로결제, 이사회 수준 JSON.**
 

@@ -10,6 +10,19 @@ are not retained — only the current production deployment is supported.
 
 ---
 
+## [Unreleased] — 2026-05-24
+
+### Changed
+- **License migrated from Proprietary → MIT** for the public repository contents (manifests, docs, governance, SDK examples, i18n READMEs). The server runtime stays closed-source — only the public surface is now open.
+- Updated badge in README + i18n READMEs + `.cursor-plugin/plugin.json`.
+
+### Why
+- Cursor Marketplace requires OSI-approved license to list.
+- Smithery / Glama / mcpbundles quality scores reward OSI-licensed manifests.
+- Public repo contains no proprietary code — MIT is the natural fit.
+
+---
+
 ## [0.2.2] — 2026-05-23
 
 ### Changed

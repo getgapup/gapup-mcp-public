@@ -1,61 +1,64 @@
-Gapup MCP — Proprietary License (Public Documentation Repository)
+MIT License
 
-Copyright (c) 2026 Gapup. All rights reserved.
+Copyright (c) 2026 Gapup
 
-This repository contains the public documentation, manifests, SDK examples, and
-integration helpers for the Gapup MCP (Model Context Protocol) server hosted at
-https://mcp.gapup.io.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-THE SERVER IMPLEMENTATION ITSELF IS NOT INCLUDED IN THIS REPOSITORY.
-The server source code, including tool prompts, persona definitions, output
-schemas, data fetchers, and orchestration logic, is proprietary and not
-distributed under this or any open-source license.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-USAGE TERMS:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-1. The hosted API at https://mcp.gapup.io is provided under the Gapup Terms of
-   Service available at https://hub.gapup.io/terms.
+---
 
-2. Free tier: 100 calls per calendar month per API key, no credit card required.
-   Key issuance subject to Terms of Service.
+## Scope of this License
 
-3. Paid usage: via x402 micro-payments (USDC / EURC) per the public pricing grid
-   (T0 $0.002 → T6 $1.50). See docs/PRICING.md for details.
+This MIT license applies ONLY to the contents of THIS repository
+(`getgapup/gapup-mcp-public`), which are:
 
-4. The contents of this repository (README, manifests, docs/, client/) MAY be:
-   - Read and referenced freely
-   - Used to configure third-party MCP clients
-   - Quoted with attribution in articles, talks, technical posts
+- Public manifests — `smithery.yaml`, `server.json`, `.cursor-plugin/plugin.json`
+- Public documentation — everything under `docs/`
+- i18n READMEs — `README.<lang>.md`
+- Governance files — `SECURITY.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`,
+  `SUPPORT.md`, `CHANGELOG.md`
+- SDK / client examples — anything under `client/` or `sdk/`
 
-5. The contents of this repository MAY NOT be:
-   - Redistributed in modified form claiming to be the Gapup MCP
-   - Used to operate a competing service under the Gapup name or branding
-   - Used to reverse-engineer or clone the server implementation
+## What this License Does NOT Cover
 
-6. The manifests (smithery.yaml, server.json) reference the hosted Gapup
-   service. Forking these to point to a different endpoint while preserving the
-   Gapup branding is expressly forbidden.
+The MIT terms above do NOT apply to:
 
-7. SDK examples in client/ are provided for integration illustration only.
-   They are not warranted or supported beyond their educational purpose.
+1. **The Gapup MCP server implementation.** The runtime serving
+   `https://mcp.gapup.io/mcp` is proprietary, closed-source, and not
+   distributed in any form. This repository contains zero server source code.
 
-NO WARRANTIES:
+2. **The Gapup brand, name, and logo.** "Gapup" and "Gapup MCP" are
+   trademarks of Gapup. Use of the name is permitted for attribution
+   (e.g. "Built with Gapup MCP") but not for derivative branding.
 
-THE PUBLIC DOCUMENTATION AND SDK EXAMPLES ARE PROVIDED "AS IS" WITHOUT WARRANTY
-OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+3. **Usage of the hosted API.** Calling `https://mcp.gapup.io/mcp` is
+   governed by the [Gapup Terms of Service](https://hub.gapup.io/terms),
+   not by this MIT license. The MIT grant does not include a license to
+   the API service, paid x402 calls, or commercial volume.
 
-THE HOSTED API CARRIES THE SERVICE LEVEL AGREEMENTS PUBLISHED IN THE TERMS OF
-SERVICE — REFER TO https://hub.gapup.io/terms FOR PRODUCTION GUARANTEES.
+## Why MIT for this repository
 
-LIMITATION OF LIABILITY:
+This repo exists for transparency, discoverability, and integration. Making
+the manifests and docs MIT-licensed lets you:
 
-IN NO EVENT SHALL GAPUP BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR
-IN CONNECTION WITH THIS REPOSITORY OR THE USE OR OTHER DEALINGS WITH THE
-HOSTED API.
+- Fork and modify the docs for translation or internal training material
+- Reuse the SDK example snippets in your own client
+- Submit corrections back via pull request (see `CONTRIBUTING.md`)
+- List Gapup MCP in marketplaces that require an OSI-approved license
 
-CONTACT:
-
-Questions about licensing, commercial use, partnerships, or contributing
-integration examples: agents@gapup.io
+The server implementation stays private — that's where our moat lives.

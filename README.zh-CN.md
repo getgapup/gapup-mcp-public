@@ -6,7 +6,7 @@
 [![Tools](https://img.shields.io/badge/tools-183-c9a84c)](https://mcp.gapup.io/health)
 [![x402](https://img.shields.io/badge/x402-USDC%2FEURC-c9a84c)](https://x402.org)
 [![Free tier](https://img.shields.io/badge/free%20tier-100%20calls%2Fmo-10b981)](https://hub.gapup.io/agents-api/onboard)
-[![License](https://img.shields.io/badge/license-Proprietary-grey)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **智能体可直接付费的 C-suite 知识库 — 183 个工具，x402 微支付，董事会级 JSON 输出。**
 
@@ -149,7 +149,7 @@ smithery mcp add gapup-team/gapup-mcp
 
 `mcp.gapup.io` 托管 API 依据 [Gapup 服务条款](https://hub.gapup.io/terms) 提供。
 
-本仓库内容（清单、文档、SDK 示例）采用[专有许可证](LICENSE)——禁止对本代码进行再分发、克隆或 Fork。
+本仓库内容（清单、文档、SDK 示例）采用[MIT证](LICENSE)——禁止对本代码进行再分发、克隆或 Fork。
 
 **服务器实现**为私有。本仓库仅为透明度、可发现性与集成支持而存在。
 

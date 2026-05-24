@@ -8,7 +8,7 @@
 [![Tools](https://img.shields.io/badge/tools-185-c9a84c)](https://mcp.gapup.io/health)
 [![x402](https://img.shields.io/badge/x402-USDC%2FEURC-c9a84c)](https://x402.org)
 [![Free tier](https://img.shields.io/badge/free%20tier-100%20calls%2Fmo-10b981)](https://hub.gapup.io/agents-api/onboard)
-[![License](https://img.shields.io/badge/license-Proprietary-grey)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **Agent-payable C-suite knowledge — 185 tools, x402 micro-payments, board-ready JSON.**
 
@@ -152,11 +152,11 @@ Listed on (verified live):
 
 ## License & usage
 
-The hosted API at `mcp.gapup.io` is offered under the [Gapup Terms of Service](https://hub.gapup.io/terms).
+The contents of THIS repository (manifests, docs, SDK examples, governance files) are licensed under **[MIT](LICENSE)** — you can fork, translate, reuse the snippets, contribute back.
 
-The contents of THIS repository (manifests, docs, SDK examples) are licensed under [Proprietary](LICENSE) — usage of the API is governed by the ToS; redistribution / cloning / forking of this code is restricted.
+The hosted API at `mcp.gapup.io` is governed separately by the [Gapup Terms of Service](https://hub.gapup.io/terms). The MIT grant does NOT cover commercial API usage at scale — that's a per-call x402 settlement.
 
-The **server implementation** is private. This repository exists solely for transparency, discoverability and integration support.
+The **server implementation itself is private** (closed-source). This repository contains zero server source code — only the public surface (manifests + docs + examples) that lets clients integrate with the hosted endpoint.
 
 ## Support
 
