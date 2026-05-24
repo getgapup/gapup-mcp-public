@@ -1,24 +1,94 @@
 {
   "$schema": "https://modelcontextprotocol.io/schemas/registry/v0.json",
-  "name": "io.github.getgapup/gapup-business-expertise",
-  "version": "0.2.0",
-  "description": "Gapup Business Expertise — 92 agent-payable C-suite expertises (CFO, CMO, CRO, CSO, CHRO, COO, Risk, Sustainability, Fundraising) delivering structured, audited deliverables: competitive intelligence, trend watching, deal scoring, risk scans, KYC, board packs, pricing strategy, fundraising dossiers and more. Agent-payable via HTTP 402 (USDC + EURC). Free tier 100 calls/mo.",
+  "name": "io.github.getgapup/gapup-mcp",
+  "version": "0.2.1",
+  "description": "Gapup MCP — 183 agent-payable tools (100+ C-suite expertises: competitive intel, SEC filing decoder, sanctions screener multi-jurisdiction, KYC, pentest scope estimator, attack surface monitor, clinical evidence briefer GRADE-graded, real estate deal screener EU-first moat, industry classifier NAICS/SIC/NACE/GICS/ISIC/HS, research paper Q&A evidence-grounded, sentiment news pulse, infra blueprint designer, AI Act/GDPR/ESRS compliance audits, trade intelligence, content data layer). Pay-per-call via x402 (USDC + EURC on Base + Optimism). Free tier 100 calls/mo, no credit card. Dual-audience format (human / agent — Cerebras-backed agent mode <30s p99).",
   "homepage": "https://hub.gapup.io/agents-api",
-  "documentation": "https://hub.gapup.io/agents-api",
-  "repository": "https://github.com/getgapup/gapup-mcp",
-  "license": "MIT",
-  "author": { "name": "Gapup", "url": "https://hub.gapup.io" },
-  "categories": ["business-intelligence", "strategy", "fundraising", "sustainability"],
-  "tags": ["x402", "agent-payable", "c-suite", "competitive-intel", "fundraising", "esg", "risk", "sales", "finance"],
-  "transport": "stdio",
+  "documentation": "https://github.com/getgapup/gapup-mcp-public",
+  "repository": "https://github.com/getgapup/gapup-mcp-public",
+  "license": "SEE LICENSE IN FILE",
+  "author": {
+    "name": "Gapup",
+    "url": "https://hub.gapup.io",
+    "email": "agents@gapup.io"
+  },
+  "categories": [
+    "business-intelligence",
+    "finance",
+    "compliance",
+    "strategy",
+    "sales",
+    "sustainability",
+    "research",
+    "healthcare",
+    "real-estate",
+    "security"
+  ],
+  "tags": [
+    "x402",
+    "agent-payable",
+    "usdc",
+    "eurc",
+    "c-suite",
+    "competitive-intel",
+    "sec-filings",
+    "sanctions",
+    "kyc",
+    "pentest",
+    "attack-surface",
+    "clinical-evidence",
+    "pubmed",
+    "openalex",
+    "openfda",
+    "real-estate",
+    "dvf-cerema",
+    "georisques",
+    "industry-classifier",
+    "naics",
+    "research-paper-qa",
+    "sentiment-news",
+    "gdelt",
+    "infra-design",
+    "esg",
+    "ai-act",
+    "gdpr",
+    "csrd",
+    "cerebras",
+    "dual-audience",
+    "multilingual"
+  ],
+  "transport": "http",
+  "endpoint": "https://mcp.gapup.io/mcp",
   "install": {
-    "npm": "npx -p @gapup/mcp-knowledge gapup-business-expertise",
-    "binary": "gapup-business-expertise"
+    "http": {
+      "type": "streamable-http",
+      "url": "https://mcp.gapup.io/mcp",
+      "auth_header": "x-api-key"
+    },
+    "smithery": "smithery mcp add mehdi-sakalypr/gapup-mcp"
   },
   "config": {
     "env": [
-      { "name": "GAPUP_API_KEY", "required": true, "description": "API key for Gapup expertise endpoints. Free tier (100 calls/mo, no credit card) at https://hub.gapup.io/agents-api/onboard" },
-      { "name": "GAPUP_API_BASE_URL", "required": false, "description": "Override base URL. Default: https://hub.gapup.io" }
+      {
+        "name": "GAPUP_API_KEY",
+        "required": true,
+        "description": "Free tier 100 calls/mo. Get key at https://hub.gapup.io/agents-api/onboard"
+      },
+      {
+        "name": "GAPUP_API_BASE_URL",
+        "required": false,
+        "description": "Override Gapup API endpoint. Default: https://hub.gapup.io"
+      }
     ]
-  }
+  },
+  "alternatives": [
+    {
+      "type": "smithery",
+      "url": "https://smithery.ai/servers/mehdi-sakalypr/gapup-mcp"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/getgapup/gapup-mcp-public"
+    }
+  ]
 }
