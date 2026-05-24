@@ -39,7 +39,7 @@ Smithery provides a one-click install for 30+ clients:
 - OpenCode
 - Antigravity
 
-See the live install commands at https://smithery.ai/server/mehdi-sakalypr/gapup-mcp.
+See the live install commands at https://smithery.ai/servers/gapup-team/gapup-mcp.
 
 ## Manual config (no Smithery)
 

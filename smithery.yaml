@@ -1,15 +1,15 @@
 # Smithery — listing manifest for gapup-mcp (HTTP-hosted MCP server)
 # Doc : https://smithery.ai/docs
-# Live listing : https://smithery.ai/server/mehdi-sakalypr/gapup-mcp
+# Live listing : https://smithery.ai/server/gapup-team/gapup-mcp
 #
 # Publication :
 #   npm install -g @smithery/cli
 #   smithery login
-#   smithery mcp publish https://mcp.gapup.io/mcp -n mehdi-sakalypr/gapup-mcp
+#   smithery mcp publish https://mcp.gapup.io/mcp -n gapup-team/gapup-mcp
 #
 # (Voir LISTING-PUBLICATION.md pour le step-by-step + Bazaar.)
 
-name: mehdi-sakalypr/gapup-mcp
+name: gapup-team/gapup-mcp
 displayName: "Gapup MCP — Agent-payable C-suite expertises"
 description: >
   183 MCP tools (100+ C-suite expertises) — competitive intelligence, SEC filing decoder,

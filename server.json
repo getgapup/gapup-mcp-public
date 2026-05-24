@@ -65,7 +65,7 @@
       "url": "https://mcp.gapup.io/mcp",
       "auth_header": "x-api-key"
     },
-    "smithery": "smithery mcp add mehdi-sakalypr/gapup-mcp"
+    "smithery": "smithery mcp add gapup-team/gapup-mcp"
   },
   "config": {
     "env": [
@@ -84,7 +84,7 @@
   "alternatives": [
     {
       "type": "smithery",
-      "url": "https://smithery.ai/servers/mehdi-sakalypr/gapup-mcp"
+      "url": "https://smithery.ai/servers/gapup-team/gapup-mcp"
     },
     {
       "type": "github",
