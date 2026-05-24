@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "gapup": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.gapup.io/mcp",
+        "--header",
+        "Authorization: Bearer ${GAPUP_API_KEY}"
+      ],
+      "env": {
+        "GAPUP_API_KEY": "get_your_free_key_at_https://hub.gapup.io/agents-api/onboard"
+      }
+    }
+  }
+}
