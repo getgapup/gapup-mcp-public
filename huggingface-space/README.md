@@ -8,7 +8,7 @@ sdk_version: 4.44.1
 app_file: app.py
 pinned: false
 license: mit
-short_description: Browse + try 185+ agent-payable C-suite expertise tools (x402 USDC/EURC).
+short_description: 185+ agent-payable C-suite tools — x402 USDC pay-per-call
 tags:
   - mcp
   - agent-payable
