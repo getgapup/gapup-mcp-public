@@ -12,7 +12,7 @@
         font-weight="800"
         font-size="180"
         fill="#c9a84c"
-        letter-spacing="-6">270+</text>
+        letter-spacing="-6">271+</text>
 
   <!-- Thin gold rule under the number -->
   <line x1="128" y1="290" x2="384" y2="290" stroke="#c9a84c" stroke-width="3" opacity="0.6"/>
