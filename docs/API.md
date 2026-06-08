@@ -13,9 +13,9 @@ curl -X POST https://mcp.gapup.io/mcp \
   | jq '.result.tools | length, (map(.name) | sort | .[:10])'
 ```
 
-Returns 183+ and the first 10 tool names alphabetically.
+Returns 271+ and the first 10 tool names alphabetically.
 
-## Tool categories (183 total)
+## Tool categories (271 total)
 
 ### C-suite expertises (102 tools)
 

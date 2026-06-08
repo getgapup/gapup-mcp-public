@@ -100,7 +100,7 @@ Currently in `mock-dev` mode (testnet base-sepolia). Production activation requi
 
 - **Transport**: Streamable HTTP (Server-Sent Events for tool responses)
 - **Protocol**: MCP v1
-- **183 tools** indexed across 5 server segments (all, content, trade, expertise, custom)
+- **271 tools** indexed across 5 server segments (all, content, trade, expertise, custom)
 - **Stateless** per-request; no session affinity required between calls
 
 ### 2. Hub API (`hub.gapup.io`)

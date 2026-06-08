@@ -12,7 +12,7 @@
 name: gapup-team/gapup-mcp
 displayName: "Gapup MCP — Agent-payable C-suite expertises"
 description: >
-  183 MCP tools (100+ C-suite expertises) — competitive intelligence, SEC filing decoder,
+  271 MCP tools (100+ C-suite expertises) — competitive intelligence, SEC filing decoder,
   sanctions screener multi-jurisdiction (OFAC + EU + UK + UN + SECO + SEMA + DFAT + PEP +
   adverse media), KYC, pentest scope estimator, attack surface monitor (passive recon +
   CVE/EPSS/KEV), clinical evidence briefer (PubMed + ClinicalTrials.gov + OpenFDA, GRADE-graded),
@@ -107,7 +107,7 @@ tags:
 
 # Highlights pour la fiche
 highlights:
-  - "183 tools live — verified via tools/list mcp.gapup.io"
+  - "271 tools live — verified via tools/list mcp.gapup.io"
   - "100+ C-suite expertises board-ready (CFO/CMO/CRO/CHRO/COO/Risk/ESG/Fundraising)"
   - "Dual-audience format — `audience` param routes human (Mistral gold-standard) vs agent (Cerebras <5s)"
   - "Pricing x402 native — T0 $0.002 / T1 $0.05 / T2 $0.10 / T3 $0.15 / T4 $0.20 / T5 $0.30 / T6 $1.50 async-batch"

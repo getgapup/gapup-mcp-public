@@ -3,12 +3,12 @@
 [English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [中文](README.zh-CN.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md)
 
 [![smithery badge](https://smithery.ai/badge/gapup-team/gapup-mcp)](https://smithery.ai/servers/gapup-team/gapup-mcp)
-[![Tools](https://img.shields.io/badge/tools-183-c9a84c)](https://mcp.gapup.io/health)
+[![Tools](https://img.shields.io/badge/tools-271-c9a84c)](https://mcp.gapup.io/health)
 [![x402](https://img.shields.io/badge/x402-USDC%2FEURC-c9a84c)](https://x402.org)
 [![Free tier](https://img.shields.io/badge/free%20tier-100%20calls%2Fmo-10b981)](https://hub.gapup.io/agents-api/onboard)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-**Conhecimento C-suite pagável por agentes — 183 ferramentas, micropagamentos x402, JSON pronto para o conselho.**
+**Conhecimento C-suite pagável por agentes — 271 ferramentas, micropagamentos x402, JSON pronto para o conselho.**
 
 Endpoint ativo: `https://mcp.gapup.io/mcp`  
 Plano gratuito: 100 chamadas/mês, sem cartão de crédito → [hub.gapup.io/agents-api/onboard](https://hub.gapup.io/agents-api/onboard)
@@ -29,7 +29,7 @@ Pagamento por chamada via [x402](https://x402.org) (USDC + EURC na Base + Optimi
 - **Vantagens EU-first** — DVF Cerema + Géorisques para imóveis, OFAC + EU + UK + UN + SECO + SEMA + DFAT para sanções
 - **Plano gratuito real** — 100 chamadas/mês sem cartão de crédito, sem truques de limite de taxa
 
-## O que há dentro (183 ferramentas)
+## O que há dentro (271 ferramentas)
 
 ### Top 10 expertises C-suite (mais utilizadas)
 - `competitive_intel` — Análise profunda multi-fonte EDGAR + Yahoo + Wayback + Wikipedia

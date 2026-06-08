@@ -3,12 +3,12 @@
 [English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [中文](README.zh-CN.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md)
 
 [![smithery badge](https://smithery.ai/badge/gapup-team/gapup-mcp)](https://smithery.ai/servers/gapup-team/gapup-mcp)
-[![Tools](https://img.shields.io/badge/tools-183-c9a84c)](https://mcp.gapup.io/health)
+[![Tools](https://img.shields.io/badge/tools-271-c9a84c)](https://mcp.gapup.io/health)
 [![x402](https://img.shields.io/badge/x402-USDC%2FEURC-c9a84c)](https://x402.org)
 [![Free tier](https://img.shields.io/badge/free%20tier-100%20calls%2Fmo-10b981)](https://hub.gapup.io/agents-api/onboard)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-**智能体可直接付费的 C-suite 知识库 — 183 个工具，x402 微支付，董事会级 JSON 输出。**
+**智能体可直接付费的 C-suite 知识库 — 271 个工具，x402 微支付，董事会级 JSON 输出。**
 
 线上端点：`https://mcp.gapup.io/mcp`  
 免费配额：每月 100 次调用，无需信用卡 → [hub.gapup.io/agents-api/onboard](https://hub.gapup.io/agents-api/onboard)
@@ -29,7 +29,7 @@
 - **欧盟优先护城河** — DVF Cerema + Géorisques（房产）；OFAC + EU + UK + UN + SECO + SEMA + DFAT（制裁）
 - **真实免费配额** — 无需信用卡即可每月 100 次调用，无速率限制把戏
 
-## 工具清单（183 个）
+## 工具清单（271 个）
 
 ### C-suite 十大专业工具（使用频率最高）
 - `competitive_intel` — EDGAR + Yahoo + Wayback + Wikipedia 多来源深度分析

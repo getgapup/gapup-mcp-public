@@ -3,12 +3,12 @@
 [English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [中文](README.zh-CN.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md)
 
 [![smithery badge](https://smithery.ai/badge/gapup-team/gapup-mcp)](https://smithery.ai/servers/gapup-team/gapup-mcp)
-[![Tools](https://img.shields.io/badge/tools-183-c9a84c)](https://mcp.gapup.io/health)
+[![Tools](https://img.shields.io/badge/tools-271-c9a84c)](https://mcp.gapup.io/health)
 [![x402](https://img.shields.io/badge/x402-USDC%2FEURC-c9a84c)](https://x402.org)
 [![Free tier](https://img.shields.io/badge/free%20tier-100%20calls%2Fmo-10b981)](https://hub.gapup.io/agents-api/onboard)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-**Agent-zahlbares C-Suite-Wissen — 183 Tools, x402-Mikrozahlungen, boardtaugliches JSON.**
+**Agent-zahlbares C-Suite-Wissen — 271 Tools, x402-Mikrozahlungen, boardtaugliches JSON.**
 
 Live-Endpunkt: `https://mcp.gapup.io/mcp`  
 Kostenloses Kontingent: 100 Aufrufe/Monat, keine Kreditkarte → [hub.gapup.io/agents-api/onboard](https://hub.gapup.io/agents-api/onboard)
@@ -29,7 +29,7 @@ Abrechnung per Aufruf über [x402](https://x402.org) (USDC + EURC auf Base + Opt
 - **EU-first-Stärken** — DVF Cerema + Géorisques für Immobilien, OFAC + EU + UK + UN + SECO + SEMA + DFAT für Sanktionen
 - **Echtes Freikontingent** — 100 Aufrufe/Monat ohne Kreditkarte, ohne Rate-Limit-Tricks
 
-## Inhalt (183 Tools)
+## Inhalt (271 Tools)
 
 ### Top 10 C-Suite-Expertisen (meistgenutzt)
 - `competitive_intel` — Mehrquellen-Deep-Dive EDGAR + Yahoo + Wayback + Wikipedia

@@ -3,12 +3,12 @@
 [English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [中文](README.zh-CN.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md)
 
 [![smithery badge](https://smithery.ai/badge/gapup-team/gapup-mcp)](https://smithery.ai/servers/gapup-team/gapup-mcp)
-[![Tools](https://img.shields.io/badge/tools-183-c9a84c)](https://mcp.gapup.io/health)
+[![Tools](https://img.shields.io/badge/tools-271-c9a84c)](https://mcp.gapup.io/health)
 [![x402](https://img.shields.io/badge/x402-USDC%2FEURC-c9a84c)](https://x402.org)
 [![Free tier](https://img.shields.io/badge/free%20tier-100%20calls%2Fmo-10b981)](https://hub.gapup.io/agents-api/onboard)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-**에이전트가 직접 결제하는 C-suite 전문 지식 — 183개 도구, x402 마이크로결제, 이사회 수준 JSON.**
+**에이전트가 직접 결제하는 C-suite 전문 지식 — 271개 도구, x402 마이크로결제, 이사회 수준 JSON.**
 
 라이브 엔드포인트: `https://mcp.gapup.io/mcp`  
 무료 플랜: 월 100회 호출, 신용카드 불필요 → [hub.gapup.io/agents-api/onboard](https://hub.gapup.io/agents-api/onboard)
@@ -29,7 +29,7 @@ AI 에이전트를 위해 **100개 이상의 비즈니스 전문 도구**를 제
 - **EU-first 강점** — 부동산용 DVF Cerema + Géorisques, 제재용 OFAC + EU + UK + UN + SECO + SEMA + DFAT
 - **실질적 무료 플랜** — 신용카드 없이 월 100회 호출, 속도 제한 꼼수 없음
 
-## 구성 내용 (183개 도구)
+## 구성 내용 (271개 도구)
 
 ### C-suite 상위 10개 전문 도구 (가장 많이 사용)
 - `competitive_intel` — EDGAR + Yahoo + Wayback + Wikipedia 멀티소스 심층 분석
