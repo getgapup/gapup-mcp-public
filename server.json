@@ -1,7 +1,7 @@
 {
   "$schema": "https://modelcontextprotocol.io/schemas/registry/v0.json",
   "name": "io.github.getgapup/gapup-mcp",
-  "version": "0.2.2",
+  "version": "0.2.5",
   "description": "Gapup MCP — 271 agent-payable tools (100+ C-suite expertises: competitive intel, SEC filing decoder, sanctions screener multi-jurisdiction, KYC, pentest scope estimator, attack surface monitor, clinical evidence briefer GRADE-graded, real estate deal screener EU-first moat, industry classifier NAICS/SIC/NACE/GICS/ISIC/HS, research paper Q&A evidence-grounded, sentiment news pulse, infra blueprint designer, AI Act/GDPR/ESRS compliance audits, trade intelligence, content data layer). Pay-per-call via x402 (USDC + EURC on Base + Optimism). Free tier 100 calls/mo, no credit card. Dual-audience format (human / agent — Cerebras-backed agent mode <30s p99).",
   "homepage": "https://hub.gapup.io/agents-api",
   "documentation": "https://github.com/getgapup/gapup-mcp-public",
