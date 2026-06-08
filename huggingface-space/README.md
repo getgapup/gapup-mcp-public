@@ -1,5 +1,5 @@
 ---
-title: Gapup MCP — 185+ Agent-Payable C-Suite Tools
+title: Gapup MCP — 271+ Agent-Payable C-Suite Tools
 emoji: 🏛️
 colorFrom: yellow
 colorTo: indigo
@@ -8,7 +8,7 @@ sdk_version: 5.7.1
 app_file: app.py
 pinned: false
 license: mit
-short_description: 185+ agent-payable C-suite tools — x402 USDC pay-per-call
+short_description: 271+ agent-payable C-suite tools — x402 USDC pay-per-call
 tags:
   - mcp
   - agent-payable
@@ -21,7 +21,7 @@ tags:
   - eu-ai-act
 ---
 
-# Gapup MCP — 185+ agent-payable C-suite expertise tools
+# Gapup MCP — 271+ agent-payable C-suite expertise tools
 
 This HF Space is a live browser for the hosted MCP server at
 **[mcp.gapup.io/mcp](https://mcp.gapup.io/mcp)**.

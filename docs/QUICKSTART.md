@@ -69,7 +69,7 @@ curl -sS -X POST https://mcp.gapup.io/mcp \
   -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' \
   | grep -E '^data:' | sed 's/^data: //' \
   | jq '.result.tools | length'
-# → 185
+# → 271
 ```
 
 ## Step 3 — Your first tool call

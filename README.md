@@ -5,12 +5,12 @@
 [![smithery badge](https://smithery.ai/badge/gapup-team/gapup-mcp)](https://smithery.ai/servers/gapup-team/gapup-mcp)
 [![Glama](https://img.shields.io/badge/Glama-listed-9333ea)](https://glama.ai/mcp/servers/getgapup/gapup-mcp)
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.getgapup%2Fgapup--mcp-3b82f6)](https://registry.modelcontextprotocol.io)
-[![Tools](https://img.shields.io/badge/tools-185-c9a84c)](https://mcp.gapup.io/health)
+[![Tools](https://img.shields.io/badge/tools-271-c9a84c)](https://mcp.gapup.io/health)
 [![x402](https://img.shields.io/badge/x402-USDC%2FEURC-c9a84c)](https://x402.org)
 [![Free tier](https://img.shields.io/badge/free%20tier-100%20calls%2Fmo-10b981)](https://hub.gapup.io/agents-api/onboard)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-**Agent-payable C-suite knowledge — 185 tools, x402 micro-payments, board-ready JSON.**
+**Agent-payable C-suite knowledge — 271 tools, x402 micro-payments, board-ready JSON.**
 
 Live endpoint: `https://mcp.gapup.io/mcp`
 Free tier: 100 calls/month, no credit card → [hub.gapup.io/agents-api/onboard](https://hub.gapup.io/agents-api/onboard)
@@ -31,7 +31,7 @@ Pay-per-call via [x402](https://x402.org) (USDC + EURC on Base + Optimism). No s
 - **EU-first moats** — DVF Cerema + Géorisques for real estate, OFAC + EU + UK + UN + SECO + SEMA + DFAT for sanctions
 - **Free tier real** — 100 calls/mo without credit card, no rate-limit games
 
-## What's inside (185 tools)
+## What's inside (271 tools)
 
 ### Top 10 C-suite expertises (most used)
 - `competitive_intel` — EDGAR + Yahoo + Wayback + Wikipedia multi-source deep-dive
