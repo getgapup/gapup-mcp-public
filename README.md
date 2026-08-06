@@ -4,6 +4,8 @@
 
 # Gapup MCP
 
+[![MCP Queen operational grade](https://mcpqueen.com/badge/io.github.getgapup/gapup-mcp.svg)](https://mcpqueen.com/s/io.github.getgapup/gapup-mcp)
+
 [English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [中文](README.zh-CN.md) · [한국어](README.ko.md) · [Português (BR)](README.pt-BR.md)
 
 [![smithery badge](https://smithery.ai/badge/gapup-team/gapup-mcp)](https://smithery.ai/servers/gapup-team/gapup-mcp)
