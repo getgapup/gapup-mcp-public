@@ -1,12 +1,15 @@
 {
-  "$schema": "https://modelcontextprotocol.io/schemas/registry/v0.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.getgapup/gapup-mcp",
-  "version": "0.2.5",
-  "description": "Gapup MCP — 271 agent-payable tools (100+ C-suite expertises: competitive intel, SEC filing decoder, sanctions screener multi-jurisdiction, KYC, pentest scope estimator, attack surface monitor, clinical evidence briefer GRADE-graded, real estate deal screener EU-first moat, industry classifier NAICS/SIC/NACE/GICS/ISIC/HS, research paper Q&A evidence-grounded, sentiment news pulse, infra blueprint designer, AI Act/GDPR/ESRS compliance audits, trade intelligence, content data layer). Pay-per-call via x402 (USDC + EURC on Base + Optimism). Free tier 100 calls/mo, no credit card. Dual-audience format (human / agent — Cerebras-backed agent mode <30s p99).",
+  "version": "0.2.3",
+  "description": "271+ agent-payable C-suite expertise tools — x402 USDC/EURC, free tier 100 calls/mo.",
   "homepage": "https://hub.gapup.io/agents-api",
-  "documentation": "https://github.com/getgapup/gapup-mcp-public",
-  "repository": "https://github.com/getgapup/gapup-mcp-public",
-  "license": "SEE LICENSE IN FILE",
+  "documentation": "https://github.com/getgapup/gapup-mcp-public/blob/main/docs/EXAMPLES.md",
+  "repository": {
+    "url": "https://github.com/getgapup/gapup-mcp-public",
+    "source": "github"
+  },
+  "license": "MIT",
   "author": {
     "name": "Gapup",
     "url": "https://hub.gapup.io",
@@ -65,7 +68,7 @@
       "url": "https://mcp.gapup.io/mcp",
       "auth_header": "x-api-key"
     },
-    "smithery": "smithery mcp add gapup-team/gapup-mcp"
+    "smithery": "smithery mcp add getgapup/gapup-mcp"
   },
   "config": {
     "env": [
@@ -84,7 +87,7 @@
   "alternatives": [
     {
       "type": "smithery",
-      "url": "https://smithery.ai/servers/gapup-team/gapup-mcp"
+      "url": "https://smithery.ai/servers/getgapup/gapup-mcp"
     },
     {
       "type": "github",
